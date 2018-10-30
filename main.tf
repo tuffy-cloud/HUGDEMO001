@@ -13,5 +13,6 @@ resource "aws_instance" "example" {
   tags {
     Name = "demo01"
     Owner = "tuffner"
+    Dept = "marketing"
   }
 }
